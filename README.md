@@ -13,9 +13,7 @@ Insert gif or link to demo
 
 ## Roadmap
 
-- Additional browser support
-
-- Add more integrations
+- Add carousel products sliders
 
 
 ## Run Locally
