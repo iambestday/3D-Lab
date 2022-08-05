@@ -30,7 +30,6 @@ Go to the project directory
 
 ```bash
   cd 3D-Lab
-
 ```
 
 Start the server
