@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./src/styles/icons/favicon.png" />
+    <link rel="stylesheet" href="./src/styles/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./src/styles/css/main.css">
+    <title>3D-lighting Web App (MVP)</title>
+</head>
+<body>
+  <div id="preloader">
+    <div class="content">
+      <div class="logo"></div>
+      <div class="message">
+        در حال بارگذاری لطفا منتظر باشید
+      </div>
+      <div id="loader"></div>
+      <div>میزان پیشرفت</div>
+      <div id="percentage">0%</div>
+    </div>
+  </div>
+    <header>
+      <div id="modal" class="asideModal"> 
+        <div class="asideModal__header"> 
+        <i id="modalToggleClose" class="fa-regular fa-square-minus"></i>
+         <i id="modalToggleOpen" class="fa-regular fa-square-plus"></i>
+        <p id="title" class="asideModal__title">راهنما</p>
+        </div>
+      <hr id="horizontalLine"></hr>
+        
+    <section id="content"  class="asideModal__content">
+    با سلام به وب اپلیکیشن شبیه سازی نورپردازی خوش آمدید
+     ابتدا تصویر پس زمینه را انتخاب کنید
+     سپس مدل را اضافه کنید
+     با دابل کلیک مدل را برای جابه جایی انتخاب کنید
+     با اسکرول سایز مدل را تغیییر دهید
+با راست کلیک روی مدل آن را بچرخانید 
+        </section>
+      </div>
+     <div class="header-right">
+      <div class="logo-texts">
+        <p class="logo-texts__title">شبیه ساز سه بعدی دکوراسیون</hا>
+        <p class="logo-texts__description">نسخه اولیه آزمایشی</h6ا>
+      </div>
+       <img class="logo" src="./assets/images/logo/cube.png" alt="logo">
+      </div>
+      </header>
+      <aside id="lightSettingAside" class="hidden">
+        <i class="fa-regular fa-moon"></i>
+        <input type="range" orient="vertical" id="lightRange" name="lightRange" min="0" max="5" step="0.001"/>
+        <i class="fa-regular fa-sun"></i>
+      </aside>
+  <main>
+    <div id="app"></div>
+  </main>
+    <footer>
+        <div class="footer-right info">
+          <p>حساب کاربری</p>
+          <i class="fa-regular fa-circle-user"></i>
+        </div>
+
+       <div class="footer-center tools">
+        <p>ابزارها</p>
+        <i class="fa-solid fa-layer-group"></i>
+        <i id="lightSetting" class="fa-regular fa-sun"></i>
+          <i id="insert-test" class="fa-regular fa-folder-open"></i>
+            <i id="uploadBackground" class="fa-solid fa-panorama"></i>
+            <input type="file" id="getBackground" name="getBackground" accept="image/png, image/jpeg">
+          </i>
+          <i id="captureScreen" class="fa-regular fa-floppy-disk"></i>
+          <i id="clear" class="fa-regular fa-trash-can"></i>
+          <i id="undo" class="fa-solid fa-arrow-rotate-left"></i>
+          <a href="https://web.whatsapp.com/send?phone=989377740406" ><i class="fa-regular fa-comments"></i></a>
+          
+      </div>
+
+        <div id="help" class="footer-left account">
+          <p>راهنما</p>
+          <i class="fa-regular fa-circle-question"></i>
+        </div >
+
+    </footer>
+    <script type="module" src="./src/javascript/app.js"></script>
+</body>
+</html>
