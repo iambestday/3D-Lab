@@ -12,9 +12,9 @@ https://user-images.githubusercontent.com/94782242/183224028-42128824-a55d-45c8-
 
 
 
-## Roadmap
+## ToDo
 
-- Add carousel products sliders
+- Add carousel sliders for products 
 
 
 ## Run Locally
