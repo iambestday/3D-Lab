@@ -1,5 +1,5 @@
 
-# Vanilla Js + Three.js Interior Desing
+# Three.js Interior Desing (Vanilla Js + Pure CSS)
 
 This is my firs journey into three.js library
 
