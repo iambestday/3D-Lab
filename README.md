@@ -10,6 +10,7 @@ This is my firs journey into three.js library
 
 https://user-images.githubusercontent.com/94782242/183224028-42128824-a55d-45c8-91c8-cd9b9fd45c08.mp4
 
+DEPLOYMENT : https://3d-lab.vercel.app/
 
 
 ## ToDo
