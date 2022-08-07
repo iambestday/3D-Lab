@@ -1,7 +1,7 @@
 
 # Three.js Interior Desing (Vanilla Js + Pure CSS)
 
-This is my firs journey into three.js library
+This is my first journey into three.js library
 
 
 
